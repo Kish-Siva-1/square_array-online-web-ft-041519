@@ -1,4 +1,13 @@
+counter = 0 
+arr = []
+
 def square_array(array)
+  
   array.each do |element|
-    math.sq
+    arr[counter] = element * element
+    counter += 1 
+  end 
+  
+  array = arr
+  
 end
